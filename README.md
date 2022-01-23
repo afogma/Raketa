@@ -86,7 +86,7 @@ Response : `200 OK`
 Response : `200 OK`
 
 
-### `GET /api/values?filter.id.gt=2&order.id=asc&filter.value.ctn=Запись`
+### `GET /api/values?filter.id.gt=1&order.id=asc&filter.value.ctn=Запись`
 
 Возвращает список объектов из базы данных, у который id больше 1, в поле value содержится значение "Запись" и
 упорядочивает список по возрастанию по полю id
