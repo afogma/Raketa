@@ -2,7 +2,7 @@ package im.raketa.controller;
 
 import im.raketa.entity.Value;
 import im.raketa.dto.ValueDTO;
-import im.raketa.service.ValuesService;
+import im.raketa.service.ApiService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,12 +18,11 @@ import java.util.*;
 @RequiredArgsConstructor
 public class ApiController {
 
-    private final ValuesService valuesService;
+    private final ApiService valuesService;
 
     @PostMapping()
-    public ResponseEntity createValues(@RequestParam("number") int number) {
-        valuesService.valuesCreation(number);
-        return ResponseEntity.ok(number + " values added to database");
+    public List<Value> createValues(@RequestParam("number") int number) {
+       return valuesService.valuesCreation(number);
     }
 
     @DeleteMapping
