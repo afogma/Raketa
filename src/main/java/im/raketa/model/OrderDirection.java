@@ -1,4 +1,4 @@
-package im.raketa.model.constants;
+package im.raketa.model;
 
 public enum OrderDirection {
 
