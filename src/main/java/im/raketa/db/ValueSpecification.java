@@ -1,7 +1,9 @@
-package im.raketa.utility;
+package im.raketa.db;
 
-import im.raketa.entity.Value;
-import im.raketa.utility.constants.OrderDirection;
+import im.raketa.db.Value;
+import im.raketa.model.QueryFilter;
+import im.raketa.model.SearchCriteria;
+import im.raketa.model.constants.OrderDirection;
 import lombok.Data;
 import org.springframework.data.jpa.domain.Specification;
 
@@ -11,8 +13,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static im.raketa.utility.constants.Field.VALUE;
-import static im.raketa.utility.constants.SearchOperation.*;
+import static im.raketa.model.constants.Field.VALUE;
+import static im.raketa.model.constants.SearchOperation.*;
 
 @Data
 public class ValueSpecification implements Specification<Value> {

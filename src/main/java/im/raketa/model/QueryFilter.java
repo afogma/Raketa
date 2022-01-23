@@ -1,8 +1,8 @@
-package im.raketa.utility;
+package im.raketa.model;
 
-import im.raketa.utility.constants.Field;
-import im.raketa.utility.constants.OrderDirection;
-import im.raketa.utility.constants.SearchOperation;
+import im.raketa.model.constants.Field;
+import im.raketa.model.constants.OrderDirection;
+import im.raketa.model.constants.SearchOperation;
 import lombok.Data;
 
 @Data

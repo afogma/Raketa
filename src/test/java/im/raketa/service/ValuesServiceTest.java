@@ -1,8 +1,8 @@
 package im.raketa.service;
 
-import im.raketa.dto.ValueDTO;
-import im.raketa.entity.Value;
-import im.raketa.repo.ValuesRepo;
+import im.raketa.api.ValueDTO;
+import im.raketa.db.Value;
+import im.raketa.db.ValuesRepo;
 import org.junit.jupiter.api.Test;
 
 import java.time.Instant;

@@ -1,8 +1,8 @@
-package im.raketa.repo;
+package im.raketa.db;
 
-import im.raketa.utility.QueryFilter;
-import im.raketa.utility.ValueSpecification;
-import im.raketa.entity.Value;
+import im.raketa.model.QueryFilter;
+import im.raketa.db.ValueSpecification;
+import im.raketa.db.Value;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

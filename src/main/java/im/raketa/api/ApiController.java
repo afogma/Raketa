@@ -1,7 +1,6 @@
-package im.raketa.controller;
+package im.raketa.api;
 
-import im.raketa.entity.Value;
-import im.raketa.dto.ValueDTO;
+import im.raketa.db.Value;
 import im.raketa.service.ApiService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

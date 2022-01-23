@@ -1,4 +1,4 @@
-package im.raketa.dto;
+package im.raketa.api;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

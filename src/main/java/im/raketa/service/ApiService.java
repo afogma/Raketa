@@ -1,12 +1,12 @@
 package im.raketa.service;
 
-import im.raketa.entity.Value;
-import im.raketa.dto.ValueDTO;
-import im.raketa.repo.ValuesRepo;
-import im.raketa.utility.constants.Field;
-import im.raketa.utility.constants.OrderDirection;
-import im.raketa.utility.QueryFilter;
-import im.raketa.utility.constants.SearchOperation;
+import im.raketa.db.Value;
+import im.raketa.api.ValueDTO;
+import im.raketa.db.ValuesRepo;
+import im.raketa.model.constants.Field;
+import im.raketa.model.constants.OrderDirection;
+import im.raketa.model.QueryFilter;
+import im.raketa.model.constants.SearchOperation;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

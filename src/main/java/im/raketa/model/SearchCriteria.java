@@ -1,6 +1,6 @@
-package im.raketa.utility;
+package im.raketa.model;
 
-import im.raketa.utility.constants.SearchOperation;
+import im.raketa.model.constants.SearchOperation;
 import lombok.Data;
 
 @Data

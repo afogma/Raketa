@@ -1,4 +1,4 @@
-package im.raketa.utility.constants;
+package im.raketa.model.constants;
 
 public enum SearchOperation {
     gt,

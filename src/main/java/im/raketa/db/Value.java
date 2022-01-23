@@ -1,4 +1,4 @@
-package im.raketa.entity;
+package im.raketa.db;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
