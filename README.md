@@ -11,6 +11,35 @@ URL-адресу: http://server-ip:8080/swagger-ui/index.html?configUrl=/v3/api-
 
 Команда Curl для тестирования: curl -u admin:admin http://server-ip:8080/api/values
 
+### `POST /api/values?number=3`
+
+Добавляет в базу 3 объекта Value и возвращает список добавленных объектов
+
+Пример ответа:
+
+```json
+[
+  {
+    "id": 1,
+    "date": "2022-01-23T08:22:21.846733Z",
+    "value": "Запись 1"
+  },
+  {
+    "id": 2,
+    "date": "2022-01-23T08:22:21.899716Z",
+    "value": "Запись 2"
+  },
+  {
+    "id": 3,
+    "date": "2022-01-23T08:22:21.902715Z",
+    "value": "Запись 3"
+  }
+]
+```
+
+Response : `200 OK`
+
+
 ### `GET /api/values`
 
 Возвращает полный список объектов из базы данных
